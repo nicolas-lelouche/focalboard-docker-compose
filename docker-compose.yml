@@ -157,7 +157,7 @@ services:
       #  - https://example.com
       #  - https://boards.example.com
       # This can be problematic with avatars https://github.com/wekan/wekan/issues/1776
-      #  - https://example.com/wekan
+      #  - https://exampl   e.com/wekan
       # If without https, can be only wekan node, no need for Caddy/Nginx/Apache if you don't need them
       #  - http://example.com
       #  - http://192.168.1.100    <=== using at local LAN
