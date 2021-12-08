@@ -146,7 +146,7 @@ services:
       # - "3001:8080"
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.boards.rule=Host(`wekan.${SERVER_URL}`)"
+      - "traefik.http.routers.boards.rule=Host(`wekan.localhost`)"
       - 'traefik.docker.network=homelab_network'
     environment:
       - MONGO_URL=mongodb://wekandb:27017/wekan
